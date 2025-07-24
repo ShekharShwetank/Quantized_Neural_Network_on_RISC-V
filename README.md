@@ -12,49 +12,40 @@ Install the necessary drivers and development environment for the VSDSquadron PR
 
 #### Zadig Driver Installation
 
-1.  **Download Zadig:** Obtain the `zadig-2.5.exe` utility.
+1.  **Download Zadig:** Obtain the `zadig.exe` utility.
 2.  **Connect Board:** Plug the VSDSquadron PRO board into the PC.
-3.  **Launch Zadig:** Run `zadig-2.5.exe`.
-4.  **Select Device:** Go to `Options > List All Devices` and select `Future Technology Devices International, Ltd.`.
-5.  **Install Driver:** Choose `libusb-win32 (v1.2.6.0)` from the driver list and click `Replace Driver`. Confirm the installation.
-6.  **Verify:** After successful installation, the device should appear under `Universal Serial Bus devices` in Device Manager as `VSD Squadron PRO`.
+3.  **Launch Zadig:** Run `zadig.exe`.
+4.  **Select Device:** Go to `Options > List All Devices` and select `Dual RS-232-HS (Interface 0)`.
+5.  **Install Driver:** Choose `libusb-win32 (v1.4.0.0)` from the driver list and click `Replace Driver`. Confirm the installation.
 
 #### Freedom Studio Setup
 
-1.  **Download Freedom Studio:** Download the `Freedom Studio Tar.gz` file for VSDSquadron PRO.
-2.  **Extract:** Extract the contents of the `Tar.gz` file to a preferred location.
+1.  **Download Freedom Studio:** Download the `VSDSquadronPRO.tar` file for VSDSquadron PRO.
+2.  **Extract:** Extract the contents of the `tar.gz` file to a preferred location.
 3.  **Launch Freedom Studio:**
       * **Windows:** Navigate to the extracted `FreedomStudio` folder and run `FreedomStudio.exe`.
-      * **Linux:** Open a terminal in the extracted `FreedomStudio` directory and execute `./FreedomStudio`.
-
 -----
 
 ## II. Basic Program Upload & Validation
+
+### Verified Output
+![Verified Output](TASK_1/T1_SUCCESS.png)
+#### VIDEO:
+https://github.com/ShekharShwetank/VSDSquadron_Pro_Edge_AI_Research_Internship/raw/master/TASK_1/T1_success_board_leds.mp4
 
 ### Testing 'sifive-welcome' Program
 
 This section details the procedure for uploading and validating the `sifive-welcome` example program.
 
 1.  **Open Freedom Studio:** Launch the Freedom Studio IDE.
-2.  **Import Project:**
-      * Go to `File > Import`.
-      * Select `Existing Projects into Workspace` and click `Next`.
-      * Browse to the `FreedomStudio` installation directory, then `examples > welcome_sifive`.
-      * Ensure `Copy projects into workspace` is checked and click `Finish`.
-3.  **Build Project:**
-      * Right-click the `welcome_sifive` project in the `Project Explorer`.
-      * Select `Build Project`.
-      * Verify a successful build in the `Console` window.
+2.  **Validation Software Project:** `SiFiveTools > Create a Software Example Project > Create a new Validation Software Project > Select SDK + Give target name > Select Example Program: "sifive-welcome" > check: 1. Build the project 2. Create a debug launch configuration for [select "OPENOCD" in the dropdown menu] > Finish`
 4.  **Connect Board:** Ensure the VSDSquadron PRO board is connected to the PC via USB.
 5.  **Program Board:**
-      * Right-click the `welcome_sifive` project.
-      * Select `Debug As > Freedom Studio J-Link Debugging`.
-6.  **Program Execution:** The program will upload and execute.
-7.  **Verify Output:**
-      * Observe the `VSD Squadron PRO` serial port output in a terminal (e.g., PuTTY, Tera Term, or Freedom Studio's internal console).
-      * Expected output: The program should display "Hello, World\!" and "Welcome to SiFive" messages.
-      * **Note:** During device enumeration, you may encounter a prompt: "The connected J-Link is an EDU version. It is not licensed for commercial use. If you are using it for a commercial purpose, please contact SEGGER or its distributors." Select `OK` to continue.
-
+        In the Debug Configuration window:
+      * Select `Debug Confgurations > OpenOCD > Debug > Run > ”You have an active OpenOCD debug launch. Would you like to terminate that one and continue this one?” - Yes`.
+7.  **Program Execution:** The program will upload and execute.
+8.  **Verify Output:**
+      * Observe the `VSD Squadron PRO` serial port output in a terminal (Freedom Studio's internal console).
 -----
 
 ## III. Board Specifications
@@ -70,7 +61,6 @@ The VSDSquadron PRO board is powered by the SiFive FE310-G002 RISC-V SoC.
       * **Pipelining:** 4-stage pipeline
       * **Multiplier/Divider:** Single-cycle hardware multiplier, hardware divider
   * **Debug:** JTAG Debug Interface (2-bit opcode, 7-bit debug module address, 32-bit data field)
-      * IDCODE: 0x20000913
 
 ### Memory & Storage
 
@@ -88,15 +78,24 @@ The VSDSquadron PRO board is powered by the SiFive FE310-G002 RISC-V SoC.
   * **Buttons:**
       * 1 Reset Button
       * 1 IO Button
-  * **I/O Headers:** Through-hole headers for GPIO access.
-  * **Antenna:** On-board Antenna
-  * **Power:** 5V DC barrel jack and USB powered.
-  * **Form Factor:** Arduino UNO R3 compatible.
+  * **IO & Protocols:**
+      * 48-lead 6x6 QFN package
+      * 19 Digital IO pins and 9 PWM pins
+      * 2 UART and 1 I2C
+      * Dedicated quad-SPI (QSPI) flash interface
+      * 32 Mbit Off-Chip (ISSI SPI Flash)
+      * USB-C type for Program, JTAG Debug, and Serial Communication
+  * **Form Factor**
+      * L x B: 84.00 x 52.00 mm
+      * Height: 8mm(Top) + 1mm(Bottom)
+  * **Power:**
+      * I/O: 3.3V
+      * Input: 5V
 
 -----
 
 ## Documentation
 
-  * [VSDSquadron PRO Datasheet]()
-  * [SiFive FE310-G002 Datasheet v1p2]()
-  * [SiFive FE310-G002 Manual v1p5]()
+  * [VSDSquadron PRO Datasheet](datasheet.pdf)
+  * [SiFive FE310-G002 Datasheet v1p2](fe310-g002-datasheet-v1p2.pdf)
+  * [SiFive FE310-G002 Manual v1p5](manual_fe310-g002-v1p5.pdf)
