@@ -54,6 +54,8 @@ The VSDSquadron PRO board is powered by the SiFive FE310-G002 RISC-V SoC.
 
 ### FE310-G002 SiFive RISC-V SoC
 
+![TOP_LVL_BLK_DIAG](TASK_1/FE310_G002_Top_Level_Block_Diagram.png)
+
   * **Core:** SiFive E31 (RV32IMAC)
       * **Architecture:** 32-bit RISC-V
       * **Frequency:** Up to 320 MHz
@@ -62,12 +64,14 @@ The VSDSquadron PRO board is powered by the SiFive FE310-G002 RISC-V SoC.
       * **Multiplier/Divider:** Single-cycle hardware multiplier, hardware divider
   * **Debug:** JTAG Debug Interface (2-bit opcode, 7-bit debug module address, 32-bit data field)
 
+![BLK_DIAG](TASK_1/BLOCK_DIAG.png)
 ### Memory & Storage
 
   * **Data SRAM:** 16KB
   * **Flash Memory:** 128Mbit (16MB) QSPI Flash
 
 ### Peripherals & I/O
+![PINOUT](TASK_1/FE310_G002_Pinout.png)
 
   * **USB:** USB to Serial converter (CP2102N)
   * **Clock:** On-board 16 MHz Crystal Oscillator
@@ -91,6 +95,7 @@ The VSDSquadron PRO board is powered by the SiFive FE310-G002 RISC-V SoC.
   * **Power:**
       * I/O: 3.3V
       * Input: 5V
+        
 
 -----
 
