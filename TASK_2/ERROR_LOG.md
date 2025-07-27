@@ -15,7 +15,7 @@ This document details steps for troubleshooting and successfully building a Tens
     1.  **Reduced Model Architecture:** Iteratively scaled down the number of neurons in Neural Network's hidden layer.
         * 1st attempt at reduction still left the quantized model at **27.23 KB**, which was still too large.
         * 2nd attempt, reducing the hidden layer to **16 neurons**, finally resulted in a quantized model size of **14.79 KB**.
-        * 3rd attempt, reducing the hidden layer to **16 neurons**, finally resulted in a quantized model size of **8.55 KB**.
+        * 3rd attempt, reducing the hidden layer to **8 neurons**, finally resulted in a quantized model size of **8.55 KB**.
     2.  **Verified Fit:** This `8.55 KB` model size successfully fits within the 16KB Data SRAM, making deployment on the board feasible.
 
 #### Problem 2: `main.c` Wasn't Compiling / Received `undefined reference to 'main'`
