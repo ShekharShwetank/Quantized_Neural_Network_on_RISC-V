@@ -1,5 +1,3 @@
-Alright, let's reframe this from your perspective, the intern at VSDSquadron_Pro_Edge_AI_Research_Internship.
-
 ## Troubleshooting Log: VSDSquadron PRO Edge AI Model Deployment
 
 This document details steps for troubleshooting and successfully building a TensorFlow Lite Micro application for the SiFive FE310-G002 on the VSDSquadron PRO board. It outlines the challenges faced, learning from each obstacle, and how I ultimately solved them.
