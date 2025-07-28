@@ -1,0 +1,4 @@
+src/drivers/sifive_clic0.o: \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/src/drivers/sifive_clic0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

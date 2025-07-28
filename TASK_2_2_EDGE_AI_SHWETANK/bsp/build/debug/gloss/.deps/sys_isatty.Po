@@ -1,0 +1,52 @@
+gloss/sys_isatty.o: \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/gloss/sys_isatty.c \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/unistd.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/unistd.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_ansi.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/newlib-nano/newlib.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_newlib_version.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/config.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/ieeefp.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/features.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/cdefs.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_default_types.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/types.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_types.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_types.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_stdint.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/endian.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_endian.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/select.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_sigset.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timeval.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/timespec.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timespec.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_pthreadtypes.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/sched.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/types.h
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/unistd.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/unistd.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_ansi.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/newlib-nano/newlib.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_newlib_version.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/config.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/ieeefp.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/features.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/cdefs.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_default_types.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/types.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_types.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_types.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_stdint.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/endian.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_endian.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/select.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_sigset.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timeval.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/timespec.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_timespec.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_pthreadtypes.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/sched.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/types.h:

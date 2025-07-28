@@ -1,0 +1,2 @@
+gloss/crt0.o: \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/gloss/crt0.S
