@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="com.sifive.toolchain.riscv64.unknown.elf.gcc.931928585.1728771578" name="debug">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="com.sifive.freedomstudio.toolchain.providers.SiFiveBuildOutputParser" id="com.sifive.freedomstudio.toolchain.providers.SiFiveBuildOutputParser" keep-relative-paths="false" name="SiFive RISCV Build Output Parser" parameter="riscv64-unknown-elf-(g?cc)|([gc]\+\+)|(clang)" prefer-non-shared="true" resource-scope="per-project"/>
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="-3515477475958407524" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Language Settings Provider" parameter="${RISCV_PATH_NATIVE}/bin/riscv64-unknown-elf-${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+				<language-scope id="com.sifive.freedomstudio.toolchain.rvgcc"/>
+				<language-scope id="com.sifive.freedomstudio.toolchain.rvg++"/>
+				<language-scope id="org.eclipse.cdt.core.gcc"/>
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="1474847196270723372" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainAsmSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Asm Language Settings Provider" parameter="${RISCV_PATH_NATIVE}/bin/riscv64-unknown-elf-as -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+				<language-scope id="com.sifive.freedomstudio.toolchain.rvasm"/>
+				<language-scope id="org.eclipse.cdt.core.assembly"/>
+			</provider>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+		</extension>
+	</configuration>
+	<configuration id="com.sifive.toolchain.riscv64.unknown.elf.gcc.931928585.677391515" name="release">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
+			<provider copy-of="extension" id="com.sifive.freedomstudio.toolchain.providers.SiFiveBuildOutputParser"/>
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="-3515477475958407524" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Language Settings Provider" parameter="${RISCV_PATH_NATIVE}/bin/riscv64-unknown-elf-${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+				<language-scope id="com.sifive.freedomstudio.toolchain.rvgcc"/>
+				<language-scope id="com.sifive.freedomstudio.toolchain.rvg++"/>
+				<language-scope id="org.eclipse.cdt.core.gcc"/>
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="1474847196270723372" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainAsmSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Asm Language Settings Provider" parameter="${RISCV_PATH_NATIVE}/bin/riscv64-unknown-elf-as -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+				<language-scope id="com.sifive.freedomstudio.toolchain.rvasm"/>
+				<language-scope id="org.eclipse.cdt.core.assembly"/>
+			</provider>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+		</extension>
+	</configuration>
+</project>

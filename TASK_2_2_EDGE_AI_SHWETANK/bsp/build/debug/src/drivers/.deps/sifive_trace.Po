@@ -1,0 +1,4 @@
+src/drivers/sifive_trace.o: \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/src/drivers/sifive_trace.c \
+ metal/machine/platform.h
+metal/machine/platform.h:
