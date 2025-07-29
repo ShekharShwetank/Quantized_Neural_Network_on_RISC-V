@@ -26,7 +26,7 @@ The primary objective of this project is to demonstrate the end-to-end process o
 ## Software Requirements
 
 * **Freedom Studio 3.1.1:** The integrated development environment (IDE) for SiFive RISC-V development.
-    * Download and installation instructions can be found in the [VSDSquadron PRO User Guide](datasheet.pdf).
+    * Download and installation instructions can be found in the [VSDSquadron PRO User Guide](https://github.com/ShekharShwetank/VSDSquadron_Pro_Edge_AI_Research_Internship/blob/master/datasheet.pdf).
 * **Python 3.x:** For running the model parameter generation script.
 * **Python Libraries:**
     * `tensorflow` (version 2.15.0 used in development).
@@ -59,7 +59,7 @@ Follow these steps to set up the development environment, generate model paramet
 
 ### 1. Install Freedom Studio
 
-Refer to the official [VSDSquadron PRO User Guide](datasheet.pdf) for detailed instructions on downloading, installing, and setting up Freedom Studio 3.1.1, including driver installation (e.g., using Zadig).
+Refer to the official [VSDSquadron PRO User Guide](https://github.com/ShekharShwetank/VSDSquadron_Pro_Edge_AI_Research_Internship/blob/master/datasheet.pdf) for detailed instructions on downloading, installing, and setting up Freedom Studio 3.1.1, including driver installation (e.g., using Zadig).
 
 ### 2. Prepare Python Environment
 
@@ -143,7 +143,7 @@ The C inference engine (`app_inference.h`) is specifically tailored to handle 4-
 
 ## Troubleshooting / Common Issues
 
-For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](https://www.google.com/search?q=ERROR_RESOLUTION_LOG.md).
+For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](sifive_hifive1_BitNet_MNIST_App/Error_Resolution.md).
 
 Common issues addressed include:
 
