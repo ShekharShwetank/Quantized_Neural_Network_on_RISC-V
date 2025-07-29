@@ -1,4 +1,6 @@
-# VSDSquadron PRO Board Documentation
+# SECTION 1: 
+
+# VSDSquadron PRO Board (SiFive FE310-G002) Documentation 
 
 This document outlines the hardware setup, software installation, basic program validation, and key specifications for the VSDSquadron PRO Board.
 
