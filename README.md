@@ -249,7 +249,7 @@ The C inference engine (`app_inference.h`) is specifically tailored to handle 4-
 
 ## Troubleshooting / Common Issues
 
-For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](https://www.google.com/search?q=ERROR_RESOLUTION_LOG.md).
+For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](sifive_hifive1_BitNet_MNIST_App/Error_Resolution.md).
 
 Common issues addressed include:
 
