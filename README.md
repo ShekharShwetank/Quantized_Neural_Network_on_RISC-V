@@ -184,7 +184,7 @@ The `mnist_baseline_model.ipynb` notebook trains and quantizes the MNIST model, 
 2.  **Run Parameter Generation Script:** Navigate to the `src/` directory in your terminal (e.g., `C:\VSD_Sqd_Project\sifive_hifive1_BitNet_MNIST_App\src\`) and execute:
 
     ```bash
-    python generate_c_model_params.py
+    jupyter nbconvert --to notebook --execute mnist_baseline_model.ipynb --output-dir output --ExecutePreprocessor.timeout=600 (timeout is optional, but should generally be enough)
     ```
 
     This will create (or update) `mnist_model_params.h` and `mnist_model_params.c` in the `src/` directory. These files contain the quantized weights, biases, scales, zero points, and also the quantized sample input images and their labels.
