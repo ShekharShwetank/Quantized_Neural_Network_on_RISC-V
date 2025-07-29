@@ -144,14 +144,14 @@ The primary objective of this project is to demonstrate the end-to-end process o
 DIR: sifive_hifive1_BitNet_MNIST_App
 .
 ├── src/
-│   ├── app\_inference.h               \# Core C inference functions (processfclayer, ReLUNorm)
+│   ├── app_inference.h                \# Core C inference functions (processfclayer, ReLUNorm)
 │   ├── main.c                         \# Main application logic, inference orchestration
-│   ├── mnist\_model\_data.h           \# Contains the raw mnist\_quantized\_model.tflite binary data (for reference)
-│   ├── mnist\_model\_params.c         \# Generated C source file with actual model weights, biases, and parameters
-│   ├── mnist\_model\_params.h         \# Generated C header with extern declarations for model parameters
-│   ├── mnist\_quantized\_model.tflite \# The quantized TensorFlow Lite model binary
+│   ├── mnist_model_data.h             \# Contains the raw mnist\_quantized\_model.tflite binary data (for reference)
+│   ├── mnist_model_params.c           \# Generated C source file with actual model weights, biases, and parameters
+│   ├── mnist_model_params.h           \# Generated C header with extern declarations for model parameters
+│   ├── mnist_quantized_model.tflite   \# The quantized TensorFlow Lite model binary
 │   └── Makefile                       \# Project-specific Makefile
-├── mnist\_baseline\_model.ipynb       \# Jupyter notebook for model training, quantization, and .tflite export
+├── mnist_baseline_model.ipynb         \# Jupyter notebook for model training, quantization, and .tflite export
 ├── bsp/                               \# Board Support Package (BSP) - provided by Freedom Studio/SiFive
 ├── freedom-metal/                     \# Freedom Metal library - bare-metal abstraction layer
 ├── scripts/                           \# Utility scripts for SDK (e.g., openocdcfg-generator)
