@@ -38,18 +38,17 @@ The primary objective of this project is to demonstrate the end-to-end process o
 
 .
 ├── src/
-│   ├── app\_inference.h             \# Core C inference functions (processfclayer, ReLUNorm)
-│   ├── main.c                      \# Main application logic, inference orchestration
-│   ├── mnist\_model\_data.h          \# Contains the raw mnist\_quantized\_model.tflite binary data (for reference)
-│   ├── mnist\_model\_params.c        \# Generated C source file with actual model weights, biases, and parameters
-│   ├── mnist\_model\_params.h        \# Generated C header with extern declarations for model parameters
+│   ├── app\_inference.h               \# Core C inference functions (processfclayer, ReLUNorm)
+│   ├── main.c                         \# Main application logic, inference orchestration
+│   ├── mnist\_model\_data.h           \# Contains the raw mnist\_quantized\_model.tflite binary data (for reference)
+│   ├── mnist\_model\_params.c         \# Generated C source file with actual model weights, biases, and parameters
+│   ├── mnist\_model\_params.h         \# Generated C header with extern declarations for model parameters
 │   ├── mnist\_quantized\_model.tflite \# The quantized TensorFlow Lite model binary
-│   ├── generate\_c\_model\_params.py  \# Python script to generate mnist\_model\_params.c/h
-│   └── Makefile                    \# Project-specific Makefile
-├── mnist\_baseline\_model.ipynb      \# Jupyter notebook for model training, quantization, and .tflite export
-├── bsp/                            \# Board Support Package (BSP) - provided by Freedom Studio/SiFive
-├── freedom-metal/                  \# Freedom Metal library - bare-metal abstraction layer
-├── scripts/                        \# Utility scripts for SDK (e.g., openocdcfg-generator)
+│   └── Makefile                       \# Project-specific Makefile
+├── mnist\_baseline\_model.ipynb       \# Jupyter notebook for model training, quantization, and .tflite export
+├── bsp/                               \# Board Support Package (BSP) - provided by Freedom Studio/SiFive
+├── freedom-metal/                     \# Freedom Metal library - bare-metal abstraction layer
+├── scripts/                           \# Utility scripts for SDK (e.g., openocdcfg-generator)
 └── ... (other SDK-related files and directories)
 
 ```
@@ -132,7 +131,7 @@ The `mnist_baseline_model.ipynb` notebook trains and quantizes the MNIST model, 
 
     This confirms that the model is running on the hardware and performing inferences.
 
-## 🧠 Model Details
+## Model Details
 
 The model used is a simple feed-forward neural network for MNIST handwritten digit classification, trained using Keras and then quantized to 8-bit integers using TensorFlow Lite.
 
@@ -142,9 +141,9 @@ The model used is a simple feed-forward neural network for MNIST handwritten dig
 
 The C inference engine (`app_inference.h`) is specifically tailored to handle 4-bit symmetric and 8-bit two's complement quantized weights, common in highly optimized embedded neural networks.
 
-## 🐛 Troubleshooting / Common Issues
+## Troubleshooting / Common Issues
 
-For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](https://www.google.com/search?q=ERROR_RESOLUTION_LOG.md) (assuming you create a separate file for it, or embed it here).
+For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](https://www.google.com/search?q=ERROR_RESOLUTION_LOG.md).
 
 Common issues addressed include:
 
@@ -154,12 +153,12 @@ Common issues addressed include:
   * Runtime hangs on the embedded target due to incorrect quantized arithmetic (e.g., 4-bit sign extension, `ReLUNorm` scaling issues).
   * Incorrect debug launch configurations in Freedom Studio.
 
-## 📄 License
+## License
 
 This project is licensed under the Apache 2.0 License - see the `LICENSE` file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-  * VLSI System Design (VSD) for the VSDSquadron PRO board and the internship opportunity.
+  * VLSI System Design (VSD) & Mawle Technologies for the VSDSquadron PRO board and the internship opportunity.
   * SiFive for the FE310-G002 RISC-V SoC and Freedom Studio.
   * TensorFlow Lite team for the quantization and inference tools.
