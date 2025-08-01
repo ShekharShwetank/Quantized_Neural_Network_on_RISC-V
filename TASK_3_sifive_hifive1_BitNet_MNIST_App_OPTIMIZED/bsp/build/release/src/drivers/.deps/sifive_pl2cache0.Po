@@ -1,0 +1,4 @@
+src/drivers/sifive_pl2cache0.o: \
+ C:/VSD_Sqd_Project/sifive_hifive1_BitNet_MNIST_App/freedom-metal/src/drivers/sifive_pl2cache0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

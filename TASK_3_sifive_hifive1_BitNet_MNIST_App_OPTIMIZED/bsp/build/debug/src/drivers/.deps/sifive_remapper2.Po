@@ -1,0 +1,4 @@
+src/drivers/sifive_remapper2.o: \
+ C:/VSD_Sqd_Project/sifive_hifive1_BitNet_MNIST_App/freedom-metal/src/drivers/sifive_remapper2.c \
+ metal/machine/platform.h
+metal/machine/platform.h:
