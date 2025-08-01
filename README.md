@@ -264,6 +264,109 @@ Common issues addressed include:
   * Runtime hangs on the embedded target due to incorrect quantized arithmetic (e.g., 4-bit sign extension, `ReLUNorm` scaling issues).
   * Incorrect debug launch configurations in Freedom Studio.
 
+## Status: Ongoing
+
+Current Stage Output:
+```
+BitNet MNIST Dataset Handwritten Digit Classification on sifive-hifive1.
+
+
+
+By Shwetank Shekhar
+Starting MNIST inference...
+Processing input for sample 1
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 7, True Label: 7, Status: PASS
+
+Processing input for sample 2
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 1, True Label: 2, Status: FAIL
+
+Processing input for sample 3
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 1, True Label: 1, Status: PASS
+
+Processing input for sample 4
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 0, True Label: 0, Status: PASS
+
+Processing input for sample 5
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 4, True Label: 4, Status: PASS
+
+Processing input for sample 6
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 1, True Label: 1, Status: PASS
+
+Processing input for sample 7
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 4, True Label: 4, Status: PASS
+
+Processing input for sample 8
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 1, True Label: 9, Status: FAIL
+
+Processing input for sample 9
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 6, True Label: 5, Status: FAIL
+
+Processing input for sample 10
+Debug: Starting first layer processing
+Debug: First layer complete, applying ReLU
+Debug: Starting second layer
+Debug: Second layer complete, applying ReLU
+Debug: Starting third layer
+Debug: Third layer complete, scaling outputs
+Predicted digit: 4, True Label: 9, Status: FAIL
+```
+
+See [TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md for more details](TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md)
+
 ## License
 
 This project is licensed under the Apache 2.0 License - see the `LICENSE` file for details.
