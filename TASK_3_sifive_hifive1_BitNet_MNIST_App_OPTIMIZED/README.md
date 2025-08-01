@@ -156,7 +156,7 @@ To improve the prediction accuracy of the model running on the VSDSquadron PRO b
 
 ### 1. Model Training and Quantization (`mnist_baseline_model.ipynb`)
 
-Modify the Jupyter Notebook to create a more robust model before quantization.
+A more robust model before quantization.
 
 * **Increase Model Complexity**: The current model is very simple, with a hidden layer of only 32 neurons followed by a 16-neuron layer. A slightly larger model might capture more features of the data. Increasing the number of neurons in the dense layers could improve accuracy, provided the memory constraints of the `SiFive FE310-G002` are respected.
 
@@ -166,7 +166,7 @@ Modify the Jupyter Notebook to create a more robust model before quantization.
 
 ### 2. C Inference Code (`app_inference.h`, `main.c`)
 
-The C code can be optimized to improve accuracy by reducing potential data loss and miscalculations.
+C code optimized to improve accuracy by reducing potential data loss and miscalculations.
 
 * **Input Scaling**: The provided `main.c` does not explicitly use the scale and zero-point from the `mnist_model_params.c` file. The input data is assumed to be correctly quantized, but re-quantizing it in C using the exact TFLite parameters can prevent mismatches. The formula `quantized_data = round(R / S + Z)` should be implemented to ensure inputs are handled correctly.
 
