@@ -1,3 +1,6 @@
+# OBJECTIVE:
+>> Demonstrate the end-to-end process of taking a pre-trained and quantized neural network model, converting it for bare-metal embedded deployment, and running inference directly on a resource-constrained RISC-V microcontroller.
+
 # SECTION 1: 
 
 # VSDSquadron PRO Board (SiFive FE310-G002) Documentation 
