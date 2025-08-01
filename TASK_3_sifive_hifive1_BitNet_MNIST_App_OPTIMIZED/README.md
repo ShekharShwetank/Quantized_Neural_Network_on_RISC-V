@@ -2,27 +2,27 @@ BitNet-like Quantized MNIST Classification on VSDSquadron PRO
 This repository contains the embedded C application and associated Python tools for deploying a quantized MNIST handwritten digit classification model onto the VSDSquadron PRO development board, which features the SiFive FE310-G002 RISC-V microcontroller. The solution uses a custom, efficient, integer-only inference engine inspired by BitNet principles.
 
 ## Features
-Model Architecture: A simple feed-forward neural network with three dense layers is used for MNIST classification. The layer sizes are 784 (input), 32 (hidden), 16 (hidden), and 10 (output) neurons.
+* Model Architecture: A simple feed-forward neural network with three dense layers is used for MNIST classification. The layer sizes are 784 (input), 32 (hidden), 16 (hidden), and 10 (output) neurons.
 
-Quantized Inference: The model weights and activations are quantized to 8-bit integers, allowing for efficient, integer-only matrix multiplication on the RISC-V processor.
+* Quantized Inference: The model weights and activations are quantized to 8-bit integers, allowing for efficient, integer-only matrix multiplication on the RISC-V processor.
 
-RISC-V Compatibility: The C code is optimized for the RV32IMAC instruction set of the SiFive FE310-G002 SoC.
+* RISC-V Compatibility: The C code is optimized for the RV32IMAC instruction set of the SiFive FE310-G002 SoC.
 
-Parameter Generation: A Python script (generate_c_model_params.py) extracts the quantized weights, biases, and sample inputs from a TensorFlow Lite (.tflite) model into C-compatible header and source files (mnist_model_params.h/.c).
+* Parameter Generation: A Python script (generate_c_model_params.py) extracts the quantized weights, biases, and sample inputs from a TensorFlow Lite (.tflite) model into C-compatible header and source files (mnist_model_params.h/.c).
 
-Bare-Metal Execution: The application runs directly on the microcontroller without an operating system, with inference results printed to a serial terminal for verification.
+* Bare-Metal Execution: The application runs directly on the microcontroller without an operating system, with inference results printed to a serial terminal for verification.
 
-Hardware Requirements
-VSDSquadron PRO Development Board: Featuring the SiFive FE310-G002 RISC-V SoC.
+## Hardware Requirements
+* VSDSquadron PRO Development Board: Featuring the SiFive FE310-G002 RISC-V SoC.
 
-USB-C Cable: For power, programming, and serial communication.
+* USB-C Cable: For power, programming, and serial communication.
 
-Software Requirements
-Freedom Studio 3.1.1: The IDE for SiFive RISC-V development.
+## Software Requirements
+* Freedom Studio 3.1.1: The IDE for SiFive RISC-V development.
 
-Python 3.x: For the model parameter generation script.
+* Python 3.x: For the model parameter generation script.
 
-Python Libraries: tensorflow (version 2.15.0 or compatible) and numpy.
+* Python Libraries: tensorflow (version 2.15.0 or compatible) and numpy.
 
 ## Project Structure
 
@@ -42,13 +42,13 @@ Python Libraries: tensorflow (version 2.15.0 or compatible) and numpy.
 ```
 
 ## Workflow
-Generate Quantized Model: Run the `mnist_baseline_model.ipynb` Jupyter notebook to train the model and generate `mnist_quantized_model.tflite`.
+1. Generate Quantized Model: Run the `mnist_baseline_model.ipynb` Jupyter notebook to train the model and generate `mnist_quantized_model.tflite`.
 
-Generate C Parameters: Execute python generate_c_model_params.py in the `src/` directory to create `mnist_model_params.c` and `mnist_model_params.h` from the `.tflite` file.
+2. Generate C Parameters: Execute python generate_c_model_params.py in the `src/` directory to create `mnist_model_params.c` and `mnist_model_params.h` from the `.tflite` file.
 
-Build and Flash: In Freedom Studio, build the C application, connect the VSDSquadron PRO board via USB, and flash the compiled binary to the microcontroller.
+3. Build and Flash: In Freedom Studio, build the C application, connect the VSDSquadron PRO board via USB, and flash the compiled binary to the microcontroller.
 
-Run Inference: The board will automatically begin inference, printing the results (predicted digit, true label, and status) to the serial terminal.
+4. Run Inference: The board will automatically begin inference, printing the results (predicted digit, true label, and status) to the serial terminal.
 
 ## OUTPUT:
 
