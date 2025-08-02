@@ -365,7 +365,7 @@ Debug: Third layer complete, scaling outputs
 Predicted digit: 4, True Label: 9, Status: FAIL
 ```
 
-See [TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md for more details](TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md)
+See [TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md](TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md) for more details
 
 ## License
 
