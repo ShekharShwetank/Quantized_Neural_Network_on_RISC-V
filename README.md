@@ -246,7 +246,7 @@ The `mnist_baseline_model.ipynb` notebook trains and quantizes the MNIST model, 
 
 The model used is a simple feed-forward neural network for MNIST handwritten digit classification, trained using Keras and then quantized to 8-bit integers using TensorFlow Lite.
 
-  * **Input Layer:** Flatten (28x28 grayscale image) -\> 784 features.
+  * **Input Layer:** Flatten (28x28 grayscale image) -> 784 features.
   * **Hidden Layer:** Dense layer with 8 neurons, ReLU activation.
   * **Output Layer:** Dense layer with 10 neurons (for 10 digits), Softmax activation.
 

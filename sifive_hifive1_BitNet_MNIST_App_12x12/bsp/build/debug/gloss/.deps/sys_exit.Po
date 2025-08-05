@@ -1,0 +1,4 @@
+gloss/sys_exit.o: \
+ C:/VSD_Sqd_Project/sifive_hifive1_BitNet_MNIST_App/freedom-metal/gloss/sys_exit.c \
+ C:/VSD_Sqd_Project/sifive_hifive1_BitNet_MNIST_App/freedom-metal/metal/shutdown.h
+C:/VSD_Sqd_Project/sifive_hifive1_BitNet_MNIST_App/freedom-metal/metal/shutdown.h:
