@@ -592,6 +592,8 @@ Finding prediction...
 Predicted digit: 9, True Label: 9, Status: PASS
 
 ```
+![28x28_INPUT](sifive_hifive1_BitNet_MNIST_App_12x12/28x28_input.png)
+![12x12_inferred_output](sifive_hifive1_BitNet_MNIST_App_12x12/12x12_inferred_output.png)
 
 ## License
 
