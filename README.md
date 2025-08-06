@@ -35,10 +35,11 @@ Install the necessary drivers and development environment for the VSDSquadron PR
 
 ### Verified Output
 ![Verified Output](TASK_1/T1_SUCCESS.png)
-#### VIDEO:
-https://github.com/ShekharShwetank/VSDSquadron_Pro_Edge_AI_Research_Internship/raw/master/TASK_1/T1_success_board_leds.mp4
 
-### Testing 'sifive-welcome' Program
+#### VIDEO:
+<img src="TASK_1/TASK_1.gif"/>
+
+## Testing 'sifive-welcome' Program:
 
 This section details the procedure for uploading and validating the `sifive-welcome` example program.
 
