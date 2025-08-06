@@ -405,8 +405,9 @@ Output: [{'name': 'StatefulPartitionedCall:0', 'index': 14, 'shape': array([ 1, 
 For details please refer to the comprehensive attachments:
 
 1. [DIRECTORY](sifive_hifive1_BitNet_MNIST_App_12x12/src)
-2. [Error Resolution Log](sifive_hifive1_BitNet_MNIST_App_12x12/ERROR_LOG.md).
-3. References:
+2. [Image Processing](sifive_hifive1_BitNet_MNIST_App_12x12/src/Image_Processing.ipynb)
+3. [Error Resolution Log](sifive_hifive1_BitNet_MNIST_App_12x12/ERROR_LOG.md).
+4. References:
 
    i. [Optimizing_Edge_AI_A_Comprehensive_Survey.pdf](Optimizing_Edge_AI_A_Comprehensive_Survey.pdf)
    
