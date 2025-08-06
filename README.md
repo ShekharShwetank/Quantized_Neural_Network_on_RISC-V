@@ -406,6 +406,13 @@ For details please refer to the comprehensive attachments:
 
 1. [DIRECTORY](sifive_hifive1_BitNet_MNIST_App_12x12/src)
 2. [Error Resolution Log](sifive_hifive1_BitNet_MNIST_App_12x12/ERROR_LOG.md).
+3. References:
+
+   i. [Optimizing_Edge_AI_A_Comprehensive_Survey.pdf](Optimizing_Edge_AI_A_Comprehensive_Survey.pdf)
+   
+   ii. https://docs.edgeimpulse.com/docs/concepts/machine-learning/neural-networks/loss-functions
+   
+   iii.https://medium.com/@sushmita2310/12-types-of-activation-functions-in-neural-networks-a-comprehensive-guide-a441ecefb439
 
 
 ### OUTPUT:
