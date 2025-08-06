@@ -34,10 +34,10 @@ Install the necessary drivers and development environment for the VSDSquadron PR
 ## II. Basic Program Upload & Validation
 
 ### Verified Output
-![Verified Output](TASK_1/T1_SUCCESS.png)
+![Verified Output](verify_installation/T1_SUCCESS.png)
 
 #### VIDEO:
-<img src="TASK_1/TASK_1.gif"/>
+<img src="verify_installation/TASK_1.gif"/>
 
 ## Testing 'sifive-welcome' Program:
 
@@ -60,7 +60,7 @@ The VSDSquadron PRO board is powered by the SiFive FE310-G002 RISC-V SoC.
 
 ### FE310-G002 SiFive RISC-V SoC
 
-![TOP_LVL_BLK_DIAG](TASK_1/FE310_G002_Top_Level_Block_Diagram.png)
+![TOP_LVL_BLK_DIAG](verify_installation/FE310_G002_Top_Level_Block_Diagram.png)
 
   * **Core:** SiFive E31 (RV32IMAC)
       * **Architecture:** 32-bit RISC-V
@@ -70,14 +70,14 @@ The VSDSquadron PRO board is powered by the SiFive FE310-G002 RISC-V SoC.
       * **Multiplier/Divider:** Single-cycle hardware multiplier, hardware divider
   * **Debug:** JTAG Debug Interface (2-bit opcode, 7-bit debug module address, 32-bit data field)
 
-![BLK_DIAG](TASK_1/BLOCK_DIAG.png)
+![BLK_DIAG](verify_installation/BLOCK_DIAG.png)
 ### Memory & Storage
 
   * **Data SRAM:** 16KB
   * **Flash Memory:** 128Mbit (16MB) QSPI Flash
 
 ### Peripherals & I/O
-![PINOUT](TASK_1/FE310_G002_Pinout.png)
+![PINOUT](verify_installation/FE310_G002_Pinout.png)
 
   * **USB:** USB to Serial converter (CP2102N)
   * **Clock:** On-board 16 MHz Crystal Oscillator
@@ -255,7 +255,7 @@ The C inference engine (`app_inference.h`) is specifically tailored to handle 4-
 
 ## Troubleshooting / Common Issues
 
-For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](sifive_hifive1_BitNet_MNIST_App/Error_Resolution.md).
+For detailed explanations of specific errors encountered during development and their resolutions, please refer to the comprehensive [Error Resolution Log](sifive_hifive1_MNIST_Approach_1_ver3/Error_Resolution.md).
 
 Common issues addressed include:
 
@@ -366,7 +366,7 @@ Debug: Third layer complete, scaling outputs
 Predicted digit: 4, True Label: 9, Status: FAIL
 ```
 
-See [TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md](TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md) for more details
+See [TASK_3_sifive_hifive1_BitNet_MNIST_App_OPTIMIZED/README.md](sifive_hifive1_MNIST_Approach_2_ver6_optimized/README.md) for more details
 
 # SECTION 3:
 
@@ -405,9 +405,9 @@ Output: [{'name': 'StatefulPartitionedCall:0', 'index': 14, 'shape': array([ 1, 
 ```
 For details please refer to the comprehensive attachments:
 
-1. [/src](sifive_hifive1_BitNet_MNIST_App_12x12/src)
-2. [Image Processing](sifive_hifive1_BitNet_MNIST_App_12x12/src/Image_Processing.ipynb)
-3. [Error Resolution Log](sifive_hifive1_BitNet_MNIST_App_12x12/ERROR_LOG.md).
+1. [/src](sifive_hifive1_MNIST_Approach_3_2_12x12/src)
+2. [Image Processing](sifive_hifive1_MNIST_Approach_3_2_12x12/src/Image_Processing.ipynb)
+3. [Error Resolution Log](sifive_hifive1_MNIST_Approach_3_2_12x12/ERROR_LOG.md).
 4. References:
 
    i. [Optimizing_Edge_AI_A_Comprehensive_Survey.pdf](Optimizing_Edge_AI_A_Comprehensive_Survey.pdf)
@@ -606,8 +606,8 @@ Finding prediction...
 Predicted digit: 9, True Label: 9, Status: PASS
 
 ```
-![28x28_INPUT](sifive_hifive1_BitNet_MNIST_App_12x12/28x28_input.png)
-![12x12_inferred_output](sifive_hifive1_BitNet_MNIST_App_12x12/12x12_inferred_output.png)
+![28x28_INPUT](sifive_hifive1_MNIST_Approach_3_2_12x12/28x28_input.png)
+![12x12_inferred_output](sifive_hifive1_MNIST_Approach_3_2_12x12/12x12_inferred_output.png)
 
 ## License
 
