@@ -147,7 +147,7 @@ The primary objective of this project is to demonstrate the end-to-end process o
 ## Project Structure
 
 ```
-DIR: sifive_hifive1_BitNet_MNIST_App
+DIR: sifive_hifive1_MNIST_Approach....
 .
 ├── src/
 │   ├── app_inference.h                \# Core C inference functions (processfclayer, ReLUNorm)
