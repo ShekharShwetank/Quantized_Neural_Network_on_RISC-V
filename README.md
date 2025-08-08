@@ -1,6 +1,81 @@
 # OBJECTIVE:
 >> Demonstrate the end-to-end process of taking a pre-trained and quantized neural network model, converting it for bare-metal embedded deployment, and running inference directly on a resource-constrained RISC-V microcontroller.
 
+## Inferences:
+
+>>Input:
+     ![ip](sifive_hifive1_Cam_Cap_Pred_Complete_Inference_Pipeline/src/captured_frame.png)
+>>Output:
+
+```
+Quantized TFLite MNIST on SiFive HiFive1.
+
+
+
+By Shwetank Shekhar
+Starting MNIST inference...
+Testing with captured webcam image...
+Clearing arrays...
+Processing input for sample 12
+Starting first layer...
+Processing layer: in=144, out=64
+Applying ReLU and Requantizing first layer...
+Layer1 ReLU range: -96 to 127
+Layer1 sample activations: -96 127 127 127
+Starting second layer...
+Processing layer: in=64, out=64
+Applying ReLU and Requantizing second layer...
+Layer2 ReLU range: -103 to 127
+Layer2 sample activations: -103 127 127 -103
+Starting final layer...
+Processing layer: in=64, out=10
+Output layer values: -67787 -26102 -80181 -42641 -56793 -46513 -72808 -47695 -22804 -85658 
+Inference completed in lu us.
+Finding prediction...
+Predicted digit: 8, True Label: 8, Status: PASS
+```
+
+## Workflow:
+
+     1. Capture: Capture a live image of a handwritten digit using a laptop's webcam.
+
+     2. Preprocessing: Apply all image preprocessing steps on the host to transform the raw image into a format suitable for the model.
+
+     3. Transmission: Send the preprocessed image data over a serial connection (UART) to the SiFive HiFive1 board.
+     
+     4. Inference: The board receives the image data and performs the 8-bit quantized inference.
+     
+     5. Prediction: The board transmits the classification result back to the host computer via UART.
+     
+## To Run Inference:
+
+     cam_capture_image.py > main.c
+     
+## Directory Structure:
+
+```
+sifive_hifive1_Cam_Cap_Pred_Complete_Inference_Pipeline/
+├── src/
+│   ├── app_inference.h
+│   ├── captured_image_data.h
+│   ├── main.c
+│   ├── mnist_model_data.h
+│   ├── mnist_model_params.c
+│   ├── mnist_model_params.h
+│   ├── cam_capture_image.py
+│   ├── captured_frame.png
+│   ├── generate_c_model_params.py
+│   ├── generate_test_image.py
+│   ├── Image_Processing.ipynb
+│   ├── LICENSE
+│   ├── Makefile
+│   ├── mnist_baseline_model.ipynb
+│   ├── mnist_model_int8.tflite
+│   ├── processed_frame.png
+│   ├── README.md
+│   └── send_image_uart.py
+└── ...
+```
 # SECTION 1: 
 
 # VSDSquadron PRO Board (SiFive FE310-G002) Documentation 
