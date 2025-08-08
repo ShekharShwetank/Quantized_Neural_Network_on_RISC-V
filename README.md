@@ -719,6 +719,8 @@ Finding prediction...
 Predicted digit: 8, True Label: 8, Status: PASS
 ```
 
+<img src="COMPLETE_INFERENCE.gif"/>
+
 ## License
 
 This project is licensed under the Apache 2.0 License - see the `LICENSE` file for details.
