@@ -1,4 +1,6 @@
-# OBJECTIVE:
+# Real-Time Implementation of Low-Bit Quantized Neural network on RISC-V EDGE Device
+
+## OBJECTIVE:
 >> Demonstrate the end-to-end process of taking a pre-trained and quantized neural network model, converting it for bare-metal embedded deployment, and running inference directly on a resource-constrained RISC-V microcontroller.
 
 # SECTION 1: 
