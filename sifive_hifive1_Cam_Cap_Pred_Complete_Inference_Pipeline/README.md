@@ -71,7 +71,7 @@ The entire pipeline, from image capture to prediction, is designed for low laten
 ## **Inferences:**
 
 Input:
-     ![ip](sifive_hifive1_Cam_Cap_Pred_Complete_Inference_Pipeline/src/captured_frame.png)
+     ![ip](src/captured_frame.png)
 
 Output:
 
