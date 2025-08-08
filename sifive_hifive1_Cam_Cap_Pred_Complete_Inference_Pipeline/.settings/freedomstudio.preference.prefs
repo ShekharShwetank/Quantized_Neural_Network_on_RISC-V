@@ -1,0 +1,13 @@
+bsp.dir=bsp
+bsp.tags=board openocd
+eclipse.preferences.version=1
+example.program=sifive-welcome
+freedomstudio.toolchain.path=C\:\\VSD\\FreedomStudio-3-1-1-x86_64-w64-mingw32\\FreedomStudio-3-1-1\\SiFive\\riscv64-unknown-elf-toolsuite-2.0.3
+is.model.maker.project=false
+is.systemc.apb=false
+is.vsw.project=true
+metal-source-path=freedom-metal
+parent.ip.project.name=
+parent.ip.sdk=C\:\\VSD\\FreedomStudio-3-1-1-x86_64-w64-mingw32\\FreedomStudio-3-1-1\\SiFive\\freedom-e-sdk-v21.11.00.00
+target.bsp=sifive-hifive1
+venv.path=venv
