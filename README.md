@@ -721,6 +721,9 @@ Predicted digit: 8, True Label: 8, Status: PASS
 
 <img src="COMPLETE_INFERENCE.gif"/>
 
+Download Video Here:
+https://drive.google.com/file/d/1mWj_ny3l_ftZYzJnuG_UuPXYb_rHnAbG/view?usp=sharing
+
 ## License
 
 This project is licensed under the Apache 2.0 License - see the `LICENSE` file for details.
