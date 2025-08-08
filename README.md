@@ -49,7 +49,8 @@ Predicted digit: 8, True Label: 8, Status: PASS
      
 ## To Run Inference:
 
-     cam_capture_image.py > main.c
+     1. mnist_baseline_model.ipynb > generate_c_model_params.py > main.c
+     2. cam_capture_image.py > main.c
      
 ## Directory Structure:
 
