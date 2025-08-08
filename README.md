@@ -614,7 +614,7 @@ Predictions:
 
 # SECTION 4: Complete Inference Pipeline Successfully Tested and Deployed
 
-## [Capstone project:](sifive_hifive1_Cam_Cap_Pred_Complete_Inference_Pipeline)
+## [Capstone project:](https://github.com/ShekharShwetank/EDGE_AI_RESEARCH.git)
 
 Capture images using your webcam, preprocess the image, send it over uart to board, then run onboard preprocessing, and then generate inference
 
