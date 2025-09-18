@@ -1,0 +1,4 @@
+gloss/sys_exit.o: \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/gloss/sys_exit.c \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/shutdown.h
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/shutdown.h:

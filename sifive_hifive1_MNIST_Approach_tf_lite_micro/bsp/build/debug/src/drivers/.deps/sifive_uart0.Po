@@ -1,0 +1,84 @@
+src/drivers/sifive_uart0.o: \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/src/drivers/sifive_uart0.c \
+ metal/machine/platform.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_uart0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/clock.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/compiler.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/riscv_plic0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/riscv_cpu.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/cpu.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/interrupt.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stdint.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/stdint.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_default_types.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/features.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_newlib_version.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_intsup.h \
+ C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_stdint.h \
+ metal/machine.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_gpio0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/gpio.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/io.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/uart.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/fixed-clock.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/memory.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/riscv_clint0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/pmp.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_gpio-leds.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/led.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_pwm0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/pwm.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_rtc0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/rtc.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_spi0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/spi.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_wdog0.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/watchdog.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h \
+ C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h
+metal/machine/platform.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_uart0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/clock.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stddef.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/compiler.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/riscv_plic0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/riscv_cpu.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/cpu.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/interrupt.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/lib/gcc/riscv64-unknown-elf/13.2.0/include/stdint.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/stdint.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/machine/_default_types.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/features.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/_newlib_version.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_intsup.h:
+C:/VSD/FreedomStudio-3-1-1-x86_64-w64-mingw32/FreedomStudio-3-1-1/SiFive/riscv64-unknown-elf-toolsuite-2.0.3/riscv64-unknown-elf/include/sys/_stdint.h:
+metal/machine.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_gpio0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/gpio.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/io.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/uart.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/fixed-clock.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/memory.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/riscv_clint0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/pmp.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_gpio-leds.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/led.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_pwm0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/pwm.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_rtc0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/rtc.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_spi0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/spi.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_wdog0.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/watchdog.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h:
+C:/VSD_Sqd_Project/TASK_2_2_EDGE_AI_SHWETANK/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h:
