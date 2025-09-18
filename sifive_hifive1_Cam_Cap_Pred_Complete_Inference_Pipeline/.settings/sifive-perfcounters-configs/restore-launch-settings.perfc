@@ -1,0 +1,29 @@
+#
+# SiFive Performance Counters Settings Preset
+# Preset Name: Restore launch settings
+#
+#
+#
+#Fri Aug 08 13:26:13 IST 2025
+perfcounters.config.numl3caches=0
+perfcounters.config.column01.type=2
+perfcounters.config.numl2caches=0
+perfcounters.config.column03.title=C4
+perfcounters.config.column01.title=minstret
+builtin=true
+perfcounters.config.column03.type=0
+perfcounters.config.column00.title=mcycle
+perfcounters.config.column01.expression=minstret
+perfcounters.config.column02.counteridx=3
+perfcounters.config.column00.type=2
+perfcounters.config.column02.l2cacheidx=0
+perfcounters.config.column03.l2cacheidx=0
+perfcounters.config.column03.eventencoding=0
+perfcounters.config.numextensiblecacheslices=0
+perfcounters.config.column02.type=0
+configuration.name=Restore launch settings
+perfcounters.config.numcolumns=4
+perfcounters.config.column02.eventencoding=0
+perfcounters.config.column00.expression=mcycle
+perfcounters.config.column02.title=C3
+perfcounters.config.column03.counteridx=4

@@ -1,0 +1,30 @@
+set log_output to "openocd.log"
+riscv.cpu halted due to undefined.
+undefined debug reason 8 (UNDEFINED) - target needs reset
+riscv.cpu halted due to debug-request.
+riscv.cpu
+perfcounter_regval
+halted
+dcsr (/32): 0x400094c3
+1
+t0 (/32): 0x2010572c
+mhpmcounter3h (/32): 0x00000000
+mhpmcounter3 (/32): 0x00001234
+mhpmcounter3h (/32): 0x00001234
+mhpmcounter3 (/32): 0x00001234
+mhpmevent3 (/32): 0x00000000
+mhpmcounter3h (/32): 0x00000000
+mhpmcounter3 (/32): 0x00000000
+mhpmevent4 (/32): 0x00000000
+mhpmcounter4h (/32): 0x00000000
+mhpmcounter4 (/32): 0x00000000
+mcycleh (/32): 0x00000000
+mcycle (/32): 0x204348cc
+minstreth (/32): 0x00000000
+minstret (/32): 0x1f25ac13
+mhpmcounter3h (/32): 0x00000000
+mhpmcounter3 (/32): 0x00000000
+mhpmcounter4h (/32): 0x00000000
+mhpmcounter4 (/32): 0x00000000
+Error: [riscv.cpu] DMI operation didn't complete in 2 seconds. The target is either really slow or broken. You could increase the timeout with riscv set_command_timeout_sec.
+Error: [riscv.cpu] potentially unrecoverable error detected - could not read abstractcs

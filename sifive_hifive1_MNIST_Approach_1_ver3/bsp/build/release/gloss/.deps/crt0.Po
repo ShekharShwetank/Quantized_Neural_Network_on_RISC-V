@@ -1,0 +1,2 @@
+gloss/crt0.o: \
+ C:/VSD_Sqd_Project/sifive_hifive1_BitNet_MNIST_App/freedom-metal/gloss/crt0.S

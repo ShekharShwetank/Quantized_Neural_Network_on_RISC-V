@@ -1,0 +1,192 @@
+set log_output to "openocd.log"
+riscv.cpu halted due to undefined.
+undefined debug reason 8 (UNDEFINED) - target needs reset
+riscv.cpu halted due to debug-request.
+0
+0
+0
+0
+riscv.cpu
+perfcounter_regval
+halted
+dcsr (/32): 0x40009483
+1
+t0 (/32): 0x00000000
+mhpmcounter3h (/32): 0x00000000
+mhpmcounter3 (/32): 0x00001234
+mhpmcounter3h (/32): 0x00001234
+mhpmcounter3 (/32): 0x00001234
+mhpmevent3 (/32): 0x00000000
+mhpmcounter3h (/32): 0x00000000
+mhpmcounter3 (/32): 0x00000000
+mhpmevent4 (/32): 0x00000000
+mhpmcounter4h (/32): 0x00000000
+mhpmcounter4 (/32): 0x00000000
+mcycleh (/32): 0x00000000
+mcycle (/32): 0x00b86198
+minstreth (/32): 0x00000000
+minstret (/32): 0x003777ed
+mhpmcounter3h (/32): 0x00000000
+mhpmcounter3 (/32): 0x00000000
+mhpmcounter4h (/32): 0x00000000
+mhpmcounter4 (/32): 0x00000000
+0x00000003
+tselect (/32): 0x00000000
+0x00000000
+0x20800000
+tdata1 (/32): 0x60000000
+0x20800000
+tdata1 (/32): 0x70000000
+0x20800000
+tdata1 (/32): 0x20800000
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000000
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000000
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000001
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000001
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000002
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000002
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000004
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000004
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000005
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000005
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000006
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000006
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000007
+tdata1 (/32): 0x20000000
+tdata2 (/32): 0x00000000
+Error: Could not write to register 'tdata3'
+
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003
+0x00000003
+tselect (/32): 0x00000007
+tdata1 (/32): 0x20000000
+0x20800000
+0x00000000
+Error: Could not read register 'tdata3'
+
+tselect (/32): 0x00000003

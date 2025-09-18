@@ -1,0 +1,7 @@
+set log_output to "openocd.log"
+riscv.cpu halted due to undefined.
+undefined debug reason 8 (UNDEFINED) - target needs reset
+riscv.cpu halted due to debug-request.
+Error: [riscv.cpu] Unable to halt. dmcontrol=0x00030c82, dmstatus=0x00030c82
+Error: [riscv.cpu] not halted (gdb fileio)
+shutdown command invoked
